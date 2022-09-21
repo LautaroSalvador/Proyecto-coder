@@ -43,15 +43,6 @@ header {
     color: #3F853F;
 }
 
-@media(max-width:767px) {
-    .navbar-nav{
-        background-color: rgb(231, 240, 232);
-        justify-content: center;
-        padding-left: 10px;
-        border: solid black 2px;
-    }
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -235,4 +226,13 @@ button a:hover{
 
 .marca-container{
     padding-bottom: 213px;
+}
+
+@media(max-width:767px) {
+    .navbar-nav{
+        background-color: rgb(231, 240, 232);
+        justify-content: center;
+        padding-left: 10px;
+        border: solid black 2px;
+    }
 }
