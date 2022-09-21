@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Styles| Página principal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="div-contenedor-index">
+        <!--------------------------------------------------------------------------------------------------------------->
+        <!-- :::    HEADER    :::-->
+        <!-- ------------------------------------------------------------------------------------------------------------>
+        <header class="navbar navbar-expand-md ">
+            <div class="container">
+                <a class="navbar-brand" href="#">New Styles</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Página Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./hombre.html">Hombre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./mujer.html">Mujer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./niño.html">Niño</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Marcas.html">Marcas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Demás opciones
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Formas de pago</a></li>
+                                <li><a class="dropdown-item" href="#">Nosotros</a></li>
+                                <li><a class="dropdown-item" href="#">Contactanos
+                                    </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--------------------------------------------------------------------------------------------------------------->
+        <!-- :::    MAIN    :::-->
+        <!-- ------------------------------------------------------------------------------------------------------------>
+
+        <main>
+            <section class="container">
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="./Imagenes/Logos/imagen-principal.png" alt="imagen de negocios" class="w-100">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h1 class=" col-12 titulo-principal fs-1 fw-bold text-center">LA <span
+                                class="titulo-color">MEJOR</span> TIENDA ONLINE DE ROPA <span
+                                class="titulo-color">DEPORTIVA</span>
+                        </h1>
+                    </div>
+                    <p class="text-center">Bienvenido a <strong>New Styles</strong>, una tienda de ropa deportiva donde
+                        podrás encontrar buzos, zapatillas y remeras, a elección a un costo super accesible. </p>
+                </div>
+            </section>
+            <hr>
+            <section class="container-fluid div-contenedor">
+                <div class="col-12 ">
+                    <h2 class="text-center seccion-index">Los Productos más Populares!</h2>
+                </div>
+                <div class="container">
+                    <div id="carousel-zapatillas" class="carousel slide justify-content-center col-12"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Imagenes/Zapatillas/carrucel-prueba.jpg " class="d-block w-100"
+                                    alt="zapatilla-carrucel">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/Zapatillas/imagen-carrucel-2.jpg" class="d-block w-100"
+                                    alt="zapatilla-carrucel">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/Zapatillas/imagen-carrucuel-3.jpg" class="d-block w-100"
+                                    alt="zapatilla-carrucel">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-zapatillas"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon icono-flechita" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next " type="button" data-bs-target="#carousel-zapatillas"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon icono-flechita" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h3 class="titulo-principal fs-1 fw-bold text-center ">¿CÓMO <span
+                                class="titulo-color">ABONAR</span>?</h3>
+                        <p class="text-center">Podés abonar de las siguientes formas:</p>
+                    </div>
+                    <div class="col-12 col-md-6 justify-content-center d-grid">
+                        <img src="./Imagenes/Forma de abonar/mercado-pago.jpg" alt="Logo de Mercado Pago">
+                        <img src="./Imagenes/Forma de abonar/cuenta-dni.png" alt="Logo de Cuenta DNI">
+                        <img src="./Imagenes/Forma de abonar/Tarjeta Credito.jpg" alt="Tarjeta de Crédito">
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </main>
+
+        <!--------------------------------------------------------------------------------------------------------------->
+        <!-- :::Pie de Página:::-->
+        <!-- ------------------------------------------------------------------------------------------------------------>
+        <footer class="container-fluid bg-dark  ">
+
+            <div class="row p-5 footer-titulos">
+                <div class="col-6 col-md-6 col-lg-3">
+                    <p class="h3 fw-bold ">Nosotros</p>
+                    <div class="mb-2">
+                        <a href="#" class="text-secondary">Historia</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-secondary">Responsabilidad social</a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <p class="h5 fw-bold ">Hazte miembro</p>
+                    <div class="mb-2">
+                        <a href="#" class="text-secondary">Curriculum</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-secondary">Oficinas</a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3">
+                    <p class="h5 fw-bold  ">Tienda Online</p>
+                    <div class="mb-2">
+                        <a href="#" class="text-secondary">Funcionalidades</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-secondary">Vender por Redes Sociales</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-secondary">Tienda de diseños</a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3">
+                    <p class="h5 fw-bold ">Contacto</p>
+                    <div class="mb-2">
+                        <a href="#" class="text-secondary">Facebook</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-secondary">instagram</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-secondary">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

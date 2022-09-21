@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.div-contenedor{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%231d4827' fill-opacity='0.41' fill-rule='evenodd'/%3E%3C/svg%3E");
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    width: 100%;
+}
+.div-contenedor-index{
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 1px 1px 1px;
+    margin: auto;
+    background-color: #e7ecf1;
+}
+
+.navbar-brand{
+    color: #3F853F;
+}
+
+@media(max-width:767px) {
+    .navbar-nav{
+        background-color: rgb(231, 240, 232);
+        justify-content: center;
+        padding-left: 10px;
+        border: solid black 2px;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.img-nav-nike {
+    height: 40px;
+    width: 40px;
+    display: inline;
+    background-color: grey;
+    margin-left: 20px;
+
+}
+
+.img-nav-adidas {
+    height: 40px;
+    width: 40px;
+    display: inline;
+    background-color: grey;
+    margin-left: 20px;
+    padding-bottom: 7px;
+
+}
+
+.nav-menu {
+    display: flex;
+    padding: 10px;
+
+}
+
+.nav-menu li {
+    padding: 20px;
+}
+
+.nav-menu li a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+
+main {
+    padding-top: 30px;
+}
+.titulo-color{
+    color: #3F853F;
+}
+.titulo-principal{
+    padding-top:20px ;
+}
+
+hr{
+    color: black;
+    border: black solid 1px;
+}
+
+.carousel{
+    justify-content: center;
+    width:  40vw;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.icono-flechita{
+    background-color: black;
+    border-radius: 20%;
+    border: solid black;
+}
+
+.producto-comprar{
+    margin-left: 8rem;
+}
+
+.btn-outline-dark{
+    --bs-btn-hover-bg:#cac71430;
+}
+
+button a{
+    color: black;
+}
+
+button a:hover{
+    color: black;
+}
+
+
+.seccion-index{
+    color: white;
+    margin-top: 5%;
+}
+
+
+.articulos {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+
+}
+
+.producto {
+    height: 400px;
+    width: 250px;
+    font-size: 1rem;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}
+
+.articulo-imagen {
+    width: 210px;
+    height: 210px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.articulo-titulo {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.articulo-logo {
+    width: 60px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.descripcion-articulo {
+    padding: 3px 5px 10px 5px;
+
+}
+
+
+.articulo-logo-adidas {
+    width: 50px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+
+.footer-titulos{
+    color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+
+.seccion-titulo-estilo{
+    color: white;
+    text-align: center;
+    
+}   
+/* ---------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------------*/
+
+.logo-marca-adidas{
+    height: 125px;
+    width: 165px;
+}
+.titulo-marca{
+    color: white;
+    font-size: 2rem;
+}
+.titulo-marca-container{
+    color:white;
+}
+
+.marca-container{
+    padding-bottom: 213px;
+}
