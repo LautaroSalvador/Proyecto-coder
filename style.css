@@ -232,7 +232,7 @@ button a:hover{
     .navbar-nav{
         background-color: rgb(231, 240, 232);
         justify-content: center;
-        padding-left: 10px;
+        padding-left: 10px; 
         border: solid black 2px;
     }
 }
