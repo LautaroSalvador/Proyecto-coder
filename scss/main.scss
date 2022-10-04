@@ -1,0 +1,16 @@
+@import "./utils/variables";
+
+@import "./base/reset";
+@import "./base/typo";
+
+@import "./layout/footer";
+@import "./layout/header";
+
+@import "./components/section";
+@import "./components/botones";
+
+@import "./pages/index";
+@import "./pages/hombre";
+@import "./pages/marcas";
+@import "./pages/mujer";
+@import "./pages/niño";

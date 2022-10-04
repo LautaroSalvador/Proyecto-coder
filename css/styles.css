@@ -20,18 +20,5 @@
 .div-contenedor-index {
   width: 100px;
 }
-.div-contenedor .carousel {
-  justify-content: center;
-  width: 40vw;
-  margin-left: 30%;
-  margin-top: 5%;
-}
 
-.carousel {
-  justify-content: center;
-  width: 40vw;
-  margin-left: 30%;
-  margin-top: 5%;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
