@@ -1,4 +1,4 @@
-.div-contenedor{
+.div-contenedor {
     height: 100%;
     background-color: #000000;
     background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%231d4827' fill-opacity='0.41' fill-rule='evenodd'/%3E%3C/svg%3E");
@@ -6,20 +6,76 @@
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
     width: 100%;
-    &-index{
-        width: 100px;
-    }
-    .carousel{
-        justify-content: center;
-        width:  40vw;
-        margin-left: 30%;
-        margin-top: 5%;
+
+    &-marcas {
+        height: 50%;
+        background-color: #000000;
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%231d4827' fill-opacity='0.41' fill-rule='evenodd'/%3E%3C/svg%3E");
+        display: grid;
+        min-height: 90vh;
+        grid-template-rows: auto 1fr auto;
+        width: 100%;
     }
 }
 
-.carousel{
-    justify-content: center;
-    width:  40vw;
-    margin-left: 30%;
+
+
+.seccion-index {
+    color: white;
     margin-top: 5%;
+}
+
+.titulo-principal {
+    padding-top: 20px;
+}
+
+.titulo-color {
+    color: $color-primario
+}
+
+.seccion-titulo {
+    padding-top: 20px;
+
+    &-estilo {
+        color: white;
+        text-align: center;
+    }
+}
+
+.producto {
+    height: 400px;
+    width: 250px;
+    font-size: 1rem;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+
+
+}
+
+.articulo {
+    &-imagen {
+        width: 210px;
+        height: 210px;
+        padding: 5px;
+        margin-left: 20px;
+    }
+
+    &-logo {
+        width: 60px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    &-titulo {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 3px;
+        text-align: left;
+        padding-left: 6px;
+    }
+}
+
+.descripcion-articulo {
+    padding: 3px 5px 10px 5px;
 }

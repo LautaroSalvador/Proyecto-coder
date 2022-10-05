@@ -1,0 +1,21 @@
+.btn-outline-dark{
+    --bs-btn-hover-bg:#cac71430;
+}
+
+.icono-flechita{
+    background-color: black;
+    border-radius: 20%;
+    border: solid black;
+}
+
+.producto-comprar{
+    margin-left: 8rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    &:hover{
+        color: black;
+    }
+}

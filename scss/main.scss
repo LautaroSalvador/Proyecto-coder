@@ -1,4 +1,5 @@
 @import "./utils/variables";
+@import "./utils/media";
 
 @import "./base/reset";
 @import "./base/typo";
@@ -8,6 +9,8 @@
 
 @import "./components/section";
 @import "./components/botones";
+@import "./components/carousel";
+@import "./components/formulario";
 
 @import "./pages/index";
 @import "./pages/hombre";

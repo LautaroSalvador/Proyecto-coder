@@ -1,0 +1,15 @@
+header {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 1px 1px 1px;
+    margin: auto;
+    background-color:$color-secundario;
+}
+
+.navbar-brand{
+    color:$color-primario;
+}
+
