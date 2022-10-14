@@ -193,4 +193,32 @@ hr {
   font-size: 1.5rem;
 }
 
+.term {
+  background-color: #ededed;
+}
+.term-titulo-general {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  padding: 0 0 26px;
+}
+.term-subtitulo {
+  font-size: 24px;
+  padding: 10px;
+}
+.term-desarrollo {
+  border: px solid black;
+  border-radius: 1%;
+  margin: 0 15%;
+  border-collapse: collapse;
+}
+.term-divs {
+  background-color: white;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 20px 20px;
+  color: rgb(26, 25, 25);
+  margin-bottom: 60px;
+}
+
 /*# sourceMappingURL=style.css.map */
